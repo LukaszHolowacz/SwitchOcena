@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
         while(randomValues.size < 9){
             var rnd = Random.nextInt(0,9)
             if(!randomValues.contains(rnd)){
-                
+                //
             }
         }
         return randomValues

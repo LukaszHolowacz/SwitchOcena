@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SwitchOcena</string>
+    <string name="poczatkowy_tekst">Tutaj wyświetlą się posortowane liczby</string>
+    <string name="losuj">Losuj</string>
+    <string name="sortuj">Sortuj</string>
+    <string name="autor">Łukasz Hołowacz</string>
 </resources>

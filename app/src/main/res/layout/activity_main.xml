@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/przyciski"
-    android:padding="10dp">
+    android:background="@color/przyciski">
 
     <TextView
         android:id="@+id/wynik"
@@ -19,10 +18,10 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.732"
+        app:layout_constraintVertical_bias="0.262"
         tools:targetApi="o" />
 
     <Button
@@ -73,67 +72,37 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.037" />
 
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:minHeight="48dp"
-        android:text=""
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.202"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.328"
-        tools:ignore="UseSwitchCompatOrMaterialXml" />
-
-    <TextView
-        android:id="@+id/text9"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text=""
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:autoSizeTextType="uniform"
-        tools:targetApi="o"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.786"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.609" />
-
     <TextView
         android:id="@+id/text1"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
         android:text=""
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintHorizontal_bias="0.088"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.328"
+        app:layout_constraintVertical_bias="0.431"
         tools:targetApi="o" />
 
-    <Switch
-        android:id="@+id/switch7"
+    <TextView
+        android:id="@+id/text8"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:minHeight="48dp"
+        android:autoSizeTextType="uniform"
         android:text=""
+        android:textAlignment="center"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.609"
-        tools:ignore="UseSwitchCompatOrMaterialXml" />
+        app:layout_constraintVertical_bias="0.704"
+        tools:targetApi="o" />
 
     <Switch
         android:id="@+id/switch9"
@@ -143,10 +112,87 @@
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintHorizontal_bias="0.903"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.609"
+        app:layout_constraintVertical_bias="0.704"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568"
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704"
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568"
+        tools:targetApi="o" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:minHeight="48dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <Switch
@@ -157,10 +203,86 @@
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintHorizontal_bias="0.559"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.469"
+        app:layout_constraintVertical_bias="0.568"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704"
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568"
+        tools:targetApi="o" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:minHeight="48dp"
+        android:text=""
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:minHeight="48dp"
+        android:text=""
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/switch6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:minHeight="48dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <Switch
@@ -172,43 +294,27 @@
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintHorizontal_bias="0.559"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.609"
+        app:layout_constraintVertical_bias="0.704"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <TextView
-        android:id="@+id/text6"
+        android:id="@+id/text3"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
         android:text=""
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:autoSizeTextType="uniform"
-        tools:targetApi="o"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintHorizontal_bias="0.77"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.469" />
-
-    <TextView
-        android:id="@+id/text4"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text=""
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:autoSizeTextType="uniform"
-        tools:targetApi="o"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.063"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.469" />
+        app:layout_constraintVertical_bias="0.431"
+        tools:targetApi="o" />
 
     <TextView
         android:id="@+id/text2"
@@ -223,27 +329,11 @@
         app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.333"
+        app:layout_constraintVertical_bias="0.431"
         tools:targetApi="o" />
 
-    <TextView
-        android:id="@+id/text3"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text=""
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:autoSizeTextType="uniform"
-        tools:targetApi="o"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.786"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.328" />
-
     <Switch
-        android:id="@+id/switch4"
+        android:id="@+id/switch7"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:minHeight="48dp"
@@ -251,101 +341,10 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintHorizontal_bias="0.218"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.469"
-        tools:ignore="UseSwitchCompatOrMaterialXml" />
-
-    <TextView
-        android:id="@+id/text7"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text=""
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:autoSizeTextType="uniform"
-        tools:targetApi="o"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.063"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.609" />
-
-    <TextView
-        android:id="@+id/text5"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text=""
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:autoSizeTextType="uniform"
-        tools:targetApi="o"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.423"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.469" />
-
-    <Switch
-        android:id="@+id/switch3"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:minHeight="48dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.925"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.328"
-        tools:ignore="UseSwitchCompatOrMaterialXml" />
-
-    <TextView
-        android:id="@+id/text8"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text=""
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:autoSizeTextType="uniform"
-        tools:targetApi="o"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.423"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.609" />
-
-    <Switch
-        android:id="@+id/switch6"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:minHeight="48dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.925"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.469"
-        tools:ignore="UseSwitchCompatOrMaterialXml" />
-
-    <Switch
-        android:id="@+id/switch2"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:minWidth="48dp"
-        android:minHeight="48dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.562"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.328"
+        app:layout_constraintVertical_bias="0.704"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
